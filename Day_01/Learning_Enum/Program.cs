@@ -12,7 +12,7 @@ namespace Learning_Enum
         {
             Console.WriteLine(LearningEnum.Roles.GodMode);
             Console.WriteLine(LearningEnum.Roles.Admin);
-            Console.WriteLine(LearningEnum.Roles.User.GetType());
+            Console.WriteLine((int)LearningEnum.Roles.User);
 
             Console.Read();
         }
