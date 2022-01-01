@@ -1,0 +1,8 @@
+D:\Nihil\Repos_22\Round_VI\Day_01\Learning_Enum\bin\Debug\Learning_Enum.exe.config
+D:\Nihil\Repos_22\Round_VI\Day_01\Learning_Enum\bin\Debug\Learning_Enum.exe
+D:\Nihil\Repos_22\Round_VI\Day_01\Learning_Enum\bin\Debug\Learning_Enum.pdb
+D:\Nihil\Repos_22\Round_VI\Day_01\Learning_Enum\obj\Debug\Learning_Enum.csproj.AssemblyReference.cache
+D:\Nihil\Repos_22\Round_VI\Day_01\Learning_Enum\obj\Debug\Learning_Enum.csproj.SuggestedBindingRedirects.cache
+D:\Nihil\Repos_22\Round_VI\Day_01\Learning_Enum\obj\Debug\Learning_Enum.csproj.CoreCompileInputs.cache
+D:\Nihil\Repos_22\Round_VI\Day_01\Learning_Enum\obj\Debug\Learning_Enum.exe
+D:\Nihil\Repos_22\Round_VI\Day_01\Learning_Enum\obj\Debug\Learning_Enum.pdb
