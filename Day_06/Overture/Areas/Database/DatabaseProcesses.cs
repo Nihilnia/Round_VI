@@ -237,40 +237,40 @@ namespace Overture.Areas.Database
 
 
         //TRY
-        public static List<GridModel> GETMFGET(string daUserName)
-        {
-            var result = new List<GridModel>();
+        //public static List<GridModel> GETMFGET(string daUserName)
+        //{
+        //    var result = new List<GridModel>();
 
-            using (var DB = new OvertureContext())
-            {
-                var findUser = DB.Users.Where(f => f.UserName == daUserName).FirstOrDefault();
+        //    using (var DB = new OvertureContext())
+        //    {
+        //        var findUser = DB.Users.Where(f => f.UserName == daUserName).FirstOrDefault();
 
-                var userMovies = DB.Movies.Where(f => f.UserID == findUser.ID).Include(c => c.Categories).ToList();
+        //        var userMovies = DB.Movies.Where(f => f.UserID == findUser.ID).Include(c => c.Categories).ToList();
 
-                findUser.Movies = userMovies;
+        //        findUser.Movies = userMovies;
 
-                foreach (var f in findUser.Movies)
-                {
-                    var movID = f.ID;
-                    var movName = f.Name;
-                    foreach (var c in f.Categories)
-                    {
-                        var catID = c.ID;
-                        var catName = c.Name;
+        //        foreach (var f in findUser.Movies)
+        //        {
+        //            var movID = f.ID;
+        //            var movName = f.Name;
+        //            foreach (var c in f.Categories)
+        //            {
+        //                var catID = c.ID;
+        //                var catName = c.Name;
 
-                        result.Add(new GridModel()
-                        {
-                            MovieID = movID,
-                            MovieName = movName,
-                            CategoryID = catID,
-                            CategoryName = catName,
-                        });
-                    }
-                }
+        //                result.Add(new GridModel()
+        //                {
+        //                    MovieID = movID,
+        //                    MovieName = movName,
+        //                    CategoryID = catID,
+        //                    CategoryName = catName,
+        //                });
+        //            }
+        //        }
                 
-            }
+        //    }
 
-            return result;
-        }
+        //    return result;
+        //}
     }
 }

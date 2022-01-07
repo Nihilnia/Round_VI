@@ -232,7 +232,7 @@
     <Compile Include="Areas\Database\DatabaseAreaRegistration.cs" />
     <Compile Include="Areas\Database\DatabaseProcesses.cs" />
     <Compile Include="Areas\Database\Crypt.cs" />
-    <Compile Include="Areas\Database\GridProcesses.cs" />
+    <Compile Include="Areas\JQMFGrid\Data\GridProcesses.cs" />
     <Compile Include="Areas\Database\Movie.cs" />
     <Compile Include="Areas\Database\OvertureContext.cs" />
     <Compile Include="Areas\Database\Roles.cs" />
@@ -272,6 +272,13 @@
     <Content Include="Areas\User\Views\Shared\_UserLayout.cshtml" />
     <Content Include="Areas\User\Views\User\Failed.cshtml" />
     <Content Include="Areas\JQMFGrid\Views\web.config" />
+    <Content Include="Areas\Admin\Views\Admin\AddMovie.cshtml" />
+    <Content Include="Areas\Admin\Views\Admin\Dashboard.cshtml" />
+    <Content Include="Areas\Admin\Views\Admin\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Admin\Login.cshtml" />
+    <Content Include="Areas\Admin\Views\Admin\Profile.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_AdminLayout.cshtml" />
+    <Content Include="Areas\Admin\Views\Admin\Register.cshtml" />
     <None Include="packages.config" />
     <Content Include="Views\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
@@ -286,10 +293,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Admin\Data\" />
-    <Folder Include="Areas\Admin\Views\Admin\" />
-    <Folder Include="Areas\Admin\Views\Shared\" />
     <Folder Include="Areas\JQMFGrid\Controllers\" />
-    <Folder Include="Areas\JQMFGrid\Data\" />
     <Folder Include="Areas\JQMFGrid\Views\Shared\" />
     <Folder Include="Areas\User\Views\UserJQGrid\" />
     <Folder Include="Models\" />

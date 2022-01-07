@@ -145,9 +145,9 @@ D:\Nihil\Repos_22\Round_VI\Day_06\Overture\bin\pt-BR\Microsoft.Data.SqlClient.re
 D:\Nihil\Repos_22\Round_VI\Day_06\Overture\bin\ru\Microsoft.Data.SqlClient.resources.dll
 D:\Nihil\Repos_22\Round_VI\Day_06\Overture\bin\zh-Hans\Microsoft.Data.SqlClient.resources.dll
 D:\Nihil\Repos_22\Round_VI\Day_06\Overture\bin\zh-Hant\Microsoft.Data.SqlClient.resources.dll
-D:\Nihil\Repos_22\Round_VI\Day_06\Overture\obj\Debug\Overture.csproj.AssemblyReference.cache
 D:\Nihil\Repos_22\Round_VI\Day_06\Overture\obj\Debug\Overture.csproj.SuggestedBindingRedirects.cache
 D:\Nihil\Repos_22\Round_VI\Day_06\Overture\obj\Debug\Overture.csproj.CoreCompileInputs.cache
 D:\Nihil\Repos_22\Round_VI\Day_06\Overture\obj\Debug\Overture.csproj.CopyComplete
 D:\Nihil\Repos_22\Round_VI\Day_06\Overture\obj\Debug\Overture.dll
 D:\Nihil\Repos_22\Round_VI\Day_06\Overture\obj\Debug\Overture.pdb
+D:\Nihil\Repos_22\Round_VI\Day_06\Overture\obj\Debug\Overture.csproj.AssemblyReference.cache

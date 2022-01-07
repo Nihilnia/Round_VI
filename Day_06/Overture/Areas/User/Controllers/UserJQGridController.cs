@@ -14,7 +14,7 @@ namespace Overture.Areas.User.Controllers
         public JsonResult GetDashboard()
         {
             var userName = Request.Cookies["fukinUser"].Value;
-            var model = DatabaseProcesses.GETMFGET(userName);
+            var model = GridProcesses.GETMFGET(userName);
             return Json(model, JsonRequestBehavior.AllowGet);
         }
 

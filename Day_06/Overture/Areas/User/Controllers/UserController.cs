@@ -19,10 +19,11 @@ namespace Overture.Areas.User.Controllers
         public ActionResult RegisterControl(string userName, string passWord)
         {
             var registerResult = DatabaseProcesses.RegisterControl(userName, passWord, (int)Roles.RoleTypez.User);
+            var model = DatabaseProcesses.GetUserIntel(userName);
 
             if (registerResult)
             {
-                return View("~/Areas/User/Views/User/Index.cshtml");
+                return View("~/Areas/User/Views/User/Login.cshtml", model);
             }
             else
             {
