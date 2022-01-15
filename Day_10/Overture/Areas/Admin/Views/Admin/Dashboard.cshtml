@@ -92,7 +92,7 @@
                 url: '@Url.Action("AdminGetDashboard", "AdminJQGrid")',
                 mtype: 'GET',
                 datatype: 'json',
-                colNames: ["UserID", "UserName", "Movie ID", "Movie Name", "Category ID", "Category Name"],
+                colNames: ["UserID", "UserName", "Movie ID", "Movie Name", "Category ID", "Category Name", "Options"],
                 colModel: [
                     { label: 'User ID', name: 'UserID', key: true, editable: false },
                     { label: 'UserName', name: 'UserName', editable: true },
@@ -100,6 +100,7 @@
                     { label: "Movie Name", name: 'MovieName', editable: true },
                     { label: "Category ID", name: 'CategoryID', editable: false },
                     { label: "Category Name", name: 'CategoryName', editable : true },
+                    { label: "Options", name: 'Options', editable: true, formatter: tryFormatter },
                 ],
                 loadonce: true,
                 pager: '#jqGridPager',
@@ -147,9 +148,9 @@
 
             var $pager = $grid.closest(".ui-jqgrid").find(".ui-pg-table");
 
-            //function deneme(cellValue, options, rowdata, action) {
-            //    return "<button>  </button>";
-            //}
+            function tryFormatter(cellValue, options, rowdata, action) {
+                return "<button> Delete </button>";
+            }
 
 
             $pager.find(".ui-pg-div>span.ui-icon-search")

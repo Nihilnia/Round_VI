@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "bc40f0ae-f28d-4959-af6c-cc14ca8749d4": {
+      "ProjectGuid": "bc40f0ae-f28d-4959-af6c-cc14ca8749d4",
+      "DisplayName": "Learning_JWT",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

@@ -1,0 +1,4 @@
+function tryFormatter(cellvalue, options, rowObject) {
+                
+                return '@Html.ActionLink("Delete", "AdminDeleteMovie", "AdminJQGrid", new { name = "Gloria" }, null)';
+            }
